@@ -32,7 +32,7 @@ iface = gr.Interface(
     inputs=gr.Image(type="pil", label="Upload an X-ray Image"),
     outputs=gr.Label(num_top_classes=2, label="Prediction Results"),
     title="BoneVision.ai",
-    description="An AI model to detect bone fractures in X-ray images. Upload an image to see the prediction.",
+    description="An AI model to detect bone fractures in X-ray images. Upload an image to see the prediction Model.",
 )
 
 iface.launch(share=False, debug=True)
